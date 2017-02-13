@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="scheduler.api.CategoryControllerSpec" tests="5" skipped="0" failures="5" errors="0" timestamp="2016-11-30T10:45:18" hostname="client" time="0.626">
+  <properties/>
+  <testcase name="Test the index action returns the correct response" classname="scheduler.api.CategoryControllerSpec" time="0.549">
+    <failure message="java.lang.NullPointerException: Cannot invoke method getCategories() on null object" type="java.lang.NullPointerException">java.lang.NullPointerException: Cannot invoke method getCategories() on null object
+	at scheduler.api.CategoryController.$tt__index(CategoryController.groovy:15)
+	at scheduler.api.CategoryController.index_closure1(CategoryController.groovy)
+	at groovy.lang.Closure.call(Closure.java:414)
+	at groovy.lang.Closure.call(Closure.java:430)
+	at grails.transaction.GrailsTransactionTemplate$2.doInTransaction(GrailsTransactionTemplate.groovy:96)
+	at org.springframework.transaction.support.TransactionTemplate.execute(TransactionTemplate.java:133)
+	at grails.transaction.GrailsTransactionTemplate.execute(GrailsTransactionTemplate.groovy:93)
+	at scheduler.api.CategoryControllerSpec.Test the index action returns the correct response(CategoryControllerSpec.groovy:22)
+</failure>
+  </testcase>
+  <testcase name="Test the save action correctly persists an instance" classname="scheduler.api.CategoryControllerSpec" time="0.056">
+    <failure message="groovy.lang.MissingMethodException: No signature of method: scheduler.api.CategoryController.save() is applicable for argument types: (scheduler.api.Category) values: [scheduler.api.Category : (unsaved)]&#10;Possible solutions: wait(), any(), wait(long), each(groovy.lang.Closure), isCase(java.lang.Object), sleep(long)" type="groovy.lang.MissingMethodException">groovy.lang.MissingMethodException: No signature of method: scheduler.api.CategoryController.save() is applicable for argument types: (scheduler.api.Category) values: [scheduler.api.Category : (unsaved)]
+Possible solutions: wait(), any(), wait(long), each(groovy.lang.Closure), isCase(java.lang.Object), sleep(long)
+	at scheduler.api.CategoryControllerSpec.Test the save action correctly persists an instance(CategoryControllerSpec.groovy:36)
+</failure>
+  </testcase>
+  <testcase name="Test that the show action returns the correct model" classname="scheduler.api.CategoryControllerSpec" time="0.009">
+    <failure message="groovy.lang.MissingMethodException: No signature of method: scheduler.api.CategoryController.show() is applicable for argument types: (null) values: [null]&#10;Possible solutions: wait(), any(), grep(), dump(), find(), wait(long)" type="groovy.lang.MissingMethodException">groovy.lang.MissingMethodException: No signature of method: scheduler.api.CategoryController.show() is applicable for argument types: (null) values: [null]
+Possible solutions: wait(), any(), grep(), dump(), find(), wait(long)
+	at scheduler.api.CategoryControllerSpec.Test that the show action returns the correct model(CategoryControllerSpec.groovy:57)
+</failure>
+  </testcase>
+  <testcase name="Test the update action performs an update on a valid domain instance" classname="scheduler.api.CategoryControllerSpec" time="0.006">
+    <failure message="groovy.lang.MissingMethodException: No signature of method: scheduler.api.CategoryController.update() is applicable for argument types: (null) values: [null]&#10;Possible solutions: split(groovy.lang.Closure), isCase(java.lang.Object), putAt(java.lang.String, java.lang.Object), use([Ljava.lang.Object;)" type="groovy.lang.MissingMethodException">groovy.lang.MissingMethodException: No signature of method: scheduler.api.CategoryController.update() is applicable for argument types: (null) values: [null]
+Possible solutions: split(groovy.lang.Closure), isCase(java.lang.Object), putAt(java.lang.String, java.lang.Object), use([Ljava.lang.Object;)
+	at scheduler.api.CategoryControllerSpec.Test the update action performs an update on a valid domain instance(CategoryControllerSpec.groovy:78)
+</failure>
+  </testcase>
+  <testcase name="Test that the delete action deletes an instance if it exists" classname="scheduler.api.CategoryControllerSpec" time="0.006">
+    <failure message="groovy.lang.MissingMethodException: No signature of method: scheduler.api.CategoryController.delete() is applicable for argument types: (null) values: [null]&#10;Possible solutions: every(), sleep(long), split(groovy.lang.Closure), getAt(java.lang.String), every(groovy.lang.Closure)" type="groovy.lang.MissingMethodException">groovy.lang.MissingMethodException: No signature of method: scheduler.api.CategoryController.delete() is applicable for argument types: (null) values: [null]
+Possible solutions: every(), sleep(long), split(groovy.lang.Closure), getAt(java.lang.String), every(groovy.lang.Closure)
+	at scheduler.api.CategoryControllerSpec.Test that the delete action deletes an instance if it exists(CategoryControllerSpec.groovy:109)
+</failure>
+  </testcase>
+  <system-out><![CDATA[INFO org.springframework.web.context.support.GenericWebApplicationContext - Refreshing org.springframework.web.context.support.GenericWebApplicationContext@2b46d6a9: startup date [Wed Nov 30 18:45:18 CST 2016]; root of context hierarchy
+INFO grails.plugins.DefaultGrailsPluginManager - Attempting to load [0] user defined plugins
+INFO grails.plugins.DefaultGrailsPluginManager - Grails plug-in [eventBus] with version [3.2.1] loaded successfully
+INFO grails.plugins.DefaultGrailsPluginManager - Grails plug-in [core] with version [3.2.1] loaded successfully
+INFO org.springframework.beans.factory.support.DefaultListableBeanFactory - Overriding bean definition for bean 'grailsApplicationPostProcessor' with a different definition: replacing [Root bean: class [grails.test.runtime.GrailsApplicationTestPlugin$TestRuntimeGrailsApplicationPostProcessor]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null] with [Generic bean: class [org.grails.spring.beans.GrailsApplicationAwareBeanPostProcessor]; scope=singleton; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null]
+WARN org.grails.datastore.mapping.core.DatastoreUtils - Cannot unbind session, there's no SessionHolder registered
+INFO org.springframework.beans.factory.support.DefaultListableBeanFactory - Overriding bean definition for bean 'scheduler.api.CategoryValidator' with a different definition: replacing [Generic bean: class [grails.test.mixin.domain.MockCascadingDomainClassValidator]; scope=singleton; abstract=false; lazyInit=true; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null] with [Generic bean: class [grails.test.mixin.domain.MockCascadingDomainClassValidator]; scope=singleton; abstract=false; lazyInit=true; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null]
+WARN org.grails.datastore.mapping.core.DatastoreUtils - Cannot unbind session, there's no SessionHolder registered
+INFO org.springframework.beans.factory.support.DefaultListableBeanFactory - Overriding bean definition for bean 'scheduler.api.CategoryValidator' with a different definition: replacing [Generic bean: class [grails.test.mixin.domain.MockCascadingDomainClassValidator]; scope=singleton; abstract=false; lazyInit=true; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null] with [Generic bean: class [grails.test.mixin.domain.MockCascadingDomainClassValidator]; scope=singleton; abstract=false; lazyInit=true; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null]
+WARN org.grails.datastore.mapping.core.DatastoreUtils - Cannot unbind session, there's no SessionHolder registered
+INFO org.springframework.beans.factory.support.DefaultListableBeanFactory - Overriding bean definition for bean 'scheduler.api.CategoryValidator' with a different definition: replacing [Generic bean: class [grails.test.mixin.domain.MockCascadingDomainClassValidator]; scope=singleton; abstract=false; lazyInit=true; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null] with [Generic bean: class [grails.test.mixin.domain.MockCascadingDomainClassValidator]; scope=singleton; abstract=false; lazyInit=true; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null]
+WARN org.grails.datastore.mapping.core.DatastoreUtils - Cannot unbind session, there's no SessionHolder registered
+INFO org.springframework.beans.factory.support.DefaultListableBeanFactory - Overriding bean definition for bean 'scheduler.api.CategoryValidator' with a different definition: replacing [Generic bean: class [grails.test.mixin.domain.MockCascadingDomainClassValidator]; scope=singleton; abstract=false; lazyInit=true; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null] with [Generic bean: class [grails.test.mixin.domain.MockCascadingDomainClassValidator]; scope=singleton; abstract=false; lazyInit=true; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null]
+WARN org.grails.datastore.mapping.core.DatastoreUtils - Cannot unbind session, there's no SessionHolder registered
+INFO org.springframework.web.context.support.GenericWebApplicationContext - Closing org.springframework.web.context.support.GenericWebApplicationContext@2b46d6a9: startup date [Wed Nov 30 18:45:18 CST 2016]; root of context hierarchy
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

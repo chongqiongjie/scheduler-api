@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="scheduler.api.ProjectFunctionalSpec" tests="5" skipped="0" failures="5" errors="0" timestamp="2016-10-24T07:23:54" hostname="client" time="0.071">
+  <properties/>
+  <testcase name="Test the index action" classname="scheduler.api.ProjectFunctionalSpec" time="0.022">
+    <failure message="Condition not satisfied:&#10;&#10;false&#10;&#10;TODO: provide the path to your resource. Example: &quot;http://localhost:36985/books&quot;&#10;" type="org.spockframework.runtime.ConditionNotSatisfiedError">Condition not satisfied:
+
+false
+
+TODO: provide the path to your resource. Example: &quot;http://localhost:36985/books&quot;
+
+	at scheduler.api.ProjectFunctionalSpec.getResourcePath(ProjectFunctionalSpec.groovy:20)
+	at scheduler.api.ProjectFunctionalSpec.$tt__$spock_feature_1_0(ProjectFunctionalSpec.groovy:33)
+	at scheduler.api.ProjectFunctionalSpec.Test the index action_closure3(ProjectFunctionalSpec.groovy)
+	at groovy.lang.Closure.call(Closure.java:414)
+	at groovy.lang.Closure.call(Closure.java:430)
+	at grails.transaction.GrailsTransactionTemplate$1.doInTransaction(GrailsTransactionTemplate.groovy:70)
+	at org.springframework.transaction.support.TransactionTemplate.execute(TransactionTemplate.java:133)
+	at grails.transaction.GrailsTransactionTemplate.executeAndRollback(GrailsTransactionTemplate.groovy:67)
+	at scheduler.api.ProjectFunctionalSpec.Test the index action(ProjectFunctionalSpec.groovy)
+</failure>
+  </testcase>
+  <testcase name="Test the save action correctly persists an instance" classname="scheduler.api.ProjectFunctionalSpec" time="0.011">
+    <failure message="Condition not satisfied:&#10;&#10;false&#10;&#10;TODO: provide the path to your resource. Example: &quot;http://localhost:36985/books&quot;&#10;" type="org.spockframework.runtime.ConditionNotSatisfiedError">Condition not satisfied:
+
+false
+
+TODO: provide the path to your resource. Example: &quot;http://localhost:36985/books&quot;
+
+	at scheduler.api.ProjectFunctionalSpec.getResourcePath(ProjectFunctionalSpec.groovy:20)
+	at scheduler.api.ProjectFunctionalSpec.$tt__$spock_feature_1_1(ProjectFunctionalSpec.groovy:42)
+	at scheduler.api.ProjectFunctionalSpec.Test the save action correctly persists an instance_closure4(ProjectFunctionalSpec.groovy)
+	at groovy.lang.Closure.call(Closure.java:414)
+	at groovy.lang.Closure.call(Closure.java:430)
+	at grails.transaction.GrailsTransactionTemplate$1.doInTransaction(GrailsTransactionTemplate.groovy:70)
+	at org.springframework.transaction.support.TransactionTemplate.execute(TransactionTemplate.java:133)
+	at grails.transaction.GrailsTransactionTemplate.executeAndRollback(GrailsTransactionTemplate.groovy:67)
+	at scheduler.api.ProjectFunctionalSpec.Test the save action correctly persists an instance(ProjectFunctionalSpec.groovy)
+</failure>
+  </testcase>
+  <testcase name="Test the update action correctly updates an instance" classname="scheduler.api.ProjectFunctionalSpec" time="0.013">
+    <failure message="Condition not satisfied:&#10;&#10;false&#10;&#10;TODO: provide the path to your resource. Example: &quot;http://localhost:36985/books&quot;&#10;" type="org.spockframework.runtime.ConditionNotSatisfiedError">Condition not satisfied:
+
+false
+
+TODO: provide the path to your resource. Example: &quot;http://localhost:36985/books&quot;
+
+	at scheduler.api.ProjectFunctionalSpec.getResourcePath(ProjectFunctionalSpec.groovy:20)
+	at scheduler.api.ProjectFunctionalSpec.$tt__$spock_feature_1_2(ProjectFunctionalSpec.groovy:68)
+	at scheduler.api.ProjectFunctionalSpec.Test the update action correctly updates an instance_closure5(ProjectFunctionalSpec.groovy)
+	at groovy.lang.Closure.call(Closure.java:414)
+	at groovy.lang.Closure.call(Closure.java:430)
+	at grails.transaction.GrailsTransactionTemplate$1.doInTransaction(GrailsTransactionTemplate.groovy:70)
+	at org.springframework.transaction.support.TransactionTemplate.execute(TransactionTemplate.java:133)
+	at grails.transaction.GrailsTransactionTemplate.executeAndRollback(GrailsTransactionTemplate.groovy:67)
+	at scheduler.api.ProjectFunctionalSpec.Test the update action correctly updates an instance(ProjectFunctionalSpec.groovy)
+</failure>
+  </testcase>
+  <testcase name="Test the show action correctly renders an instance" classname="scheduler.api.ProjectFunctionalSpec" time="0.012">
+    <failure message="Condition not satisfied:&#10;&#10;false&#10;&#10;TODO: provide the path to your resource. Example: &quot;http://localhost:36985/books&quot;&#10;" type="org.spockframework.runtime.ConditionNotSatisfiedError">Condition not satisfied:
+
+false
+
+TODO: provide the path to your resource. Example: &quot;http://localhost:36985/books&quot;
+
+	at scheduler.api.ProjectFunctionalSpec.getResourcePath(ProjectFunctionalSpec.groovy:20)
+	at scheduler.api.ProjectFunctionalSpec.$tt__$spock_feature_1_3(ProjectFunctionalSpec.groovy:98)
+	at scheduler.api.ProjectFunctionalSpec.Test the show action correctly renders an instance_closure6(ProjectFunctionalSpec.groovy)
+	at groovy.lang.Closure.call(Closure.java:414)
+	at groovy.lang.Closure.call(Closure.java:430)
+	at grails.transaction.GrailsTransactionTemplate$1.doInTransaction(GrailsTransactionTemplate.groovy:70)
+	at org.springframework.transaction.support.TransactionTemplate.execute(TransactionTemplate.java:133)
+	at grails.transaction.GrailsTransactionTemplate.executeAndRollback(GrailsTransactionTemplate.groovy:67)
+	at scheduler.api.ProjectFunctionalSpec.Test the show action correctly renders an instance(ProjectFunctionalSpec.groovy)
+</failure>
+  </testcase>
+  <testcase name="Test the delete action correctly deletes an instance" classname="scheduler.api.ProjectFunctionalSpec" time="0.012">
+    <failure message="Condition not satisfied:&#10;&#10;false&#10;&#10;TODO: provide the path to your resource. Example: &quot;http://localhost:36985/books&quot;&#10;" type="org.spockframework.runtime.ConditionNotSatisfiedError">Condition not satisfied:
+
+false
+
+TODO: provide the path to your resource. Example: &quot;http://localhost:36985/books&quot;
+
+	at scheduler.api.ProjectFunctionalSpec.getResourcePath(ProjectFunctionalSpec.groovy:20)
+	at scheduler.api.ProjectFunctionalSpec.$tt__$spock_feature_1_4(ProjectFunctionalSpec.groovy:117)
+	at scheduler.api.ProjectFunctionalSpec.Test the delete action correctly deletes an instance_closure7(ProjectFunctionalSpec.groovy)
+	at groovy.lang.Closure.call(Closure.java:414)
+	at groovy.lang.Closure.call(Closure.java:430)
+	at grails.transaction.GrailsTransactionTemplate$1.doInTransaction(GrailsTransactionTemplate.groovy:70)
+	at org.springframework.transaction.support.TransactionTemplate.execute(TransactionTemplate.java:133)
+	at grails.transaction.GrailsTransactionTemplate.executeAndRollback(GrailsTransactionTemplate.groovy:67)
+	at scheduler.api.ProjectFunctionalSpec.Test the delete action correctly deletes an instance(ProjectFunctionalSpec.groovy)
+</failure>
+  </testcase>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

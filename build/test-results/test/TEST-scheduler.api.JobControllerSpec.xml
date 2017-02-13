@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="scheduler.api.JobControllerSpec" tests="1" skipped="0" failures="1" errors="0" timestamp="2016-11-30T10:45:20" hostname="client" time="0.206">
+  <properties/>
+  <testcase name="test something" classname="scheduler.api.JobControllerSpec" time="0.206">
+    <failure message="Condition not satisfied:&#10;&#10;true == false&#10;     |&#10;     false&#10;" type="org.spockframework.runtime.SpockComparisonFailure">Condition not satisfied:
+
+true == false
+     |
+     false
+
+	at scheduler.api.JobControllerSpec.test something(JobControllerSpec.groovy:20)
+</failure>
+  </testcase>
+  <system-out><![CDATA[INFO org.springframework.web.context.support.GenericWebApplicationContext - Refreshing org.springframework.web.context.support.GenericWebApplicationContext@1214d9a1: startup date [Wed Nov 30 18:45:20 CST 2016]; root of context hierarchy
+INFO grails.plugins.DefaultGrailsPluginManager - Attempting to load [0] user defined plugins
+INFO grails.plugins.DefaultGrailsPluginManager - Grails plug-in [eventBus] with version [3.2.1] loaded successfully
+INFO grails.plugins.DefaultGrailsPluginManager - Grails plug-in [core] with version [3.2.1] loaded successfully
+INFO org.springframework.beans.factory.support.DefaultListableBeanFactory - Overriding bean definition for bean 'grailsApplicationPostProcessor' with a different definition: replacing [Root bean: class [grails.test.runtime.GrailsApplicationTestPlugin$TestRuntimeGrailsApplicationPostProcessor]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null] with [Generic bean: class [org.grails.spring.beans.GrailsApplicationAwareBeanPostProcessor]; scope=singleton; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null]
+INFO org.springframework.web.context.support.GenericWebApplicationContext - Closing org.springframework.web.context.support.GenericWebApplicationContext@1214d9a1: startup date [Wed Nov 30 18:45:20 CST 2016]; root of context hierarchy
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

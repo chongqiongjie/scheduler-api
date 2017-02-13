@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="x-ua-compatible" content="IE=edge"/>
+<title>Test results - Class scheduler.api.ProjectControllerSpec</title>
+<link href="../css/base-style.css" rel="stylesheet" type="text/css"/>
+<link href="../css/style.css" rel="stylesheet" type="text/css"/>
+<script src="../js/report.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="content">
+<h1>Class scheduler.api.ProjectControllerSpec</h1>
+<div class="breadcrumbs">
+<a href="../index.html">all</a> &gt; 
+<a href="../packages/scheduler.api.html">scheduler.api</a> &gt; ProjectControllerSpec</div>
+<div id="summary">
+<table>
+<tr>
+<td>
+<div class="summaryGroup">
+<table>
+<tr>
+<td>
+<div class="infoBox" id="tests">
+<div class="counter">5</div>
+<p>tests</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="failures">
+<div class="counter">5</div>
+<p>failures</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="ignored">
+<div class="counter">0</div>
+<p>ignored</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="duration">
+<div class="counter">0.260s</div>
+<p>duration</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</td>
+<td>
+<div class="infoBox failures" id="successRate">
+<div class="percent">0%</div>
+<p>successful</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div id="tabs">
+<ul class="tabLinks">
+<li>
+<a href="#tab0">Failed tests</a>
+</li>
+<li>
+<a href="#tab1">Tests</a>
+</li>
+<li>
+<a href="#tab2">Standard output</a>
+</li>
+</ul>
+<div id="tab0" class="tab">
+<h2>Failed tests</h2>
+<div class="test">
+<a name="Test that the delete action deletes an instance if it exists"></a>
+<h3 class="failures">Test that the delete action deletes an instance if it exists</h3>
+<span class="code">
+<pre>groovy.lang.MissingMethodException: No signature of method: scheduler.api.ProjectController.delete() is applicable for argument types: (null) values: [null]
+Possible solutions: every(), sleep(long), split(groovy.lang.Closure), getAt(java.lang.String), every(groovy.lang.Closure)
+	at scheduler.api.ProjectControllerSpec.Test that the delete action deletes an instance if it exists(ProjectControllerSpec.groovy:109)
+</pre>
+</span>
+</div>
+<div class="test">
+<a name="Test that the show action returns the correct model"></a>
+<h3 class="failures">Test that the show action returns the correct model</h3>
+<span class="code">
+<pre>groovy.lang.MissingMethodException: No signature of method: scheduler.api.ProjectController.show() is applicable for argument types: (null) values: [null]
+Possible solutions: wait(), any(), grep(), dump(), find(), wait(long)
+	at scheduler.api.ProjectControllerSpec.Test that the show action returns the correct model(ProjectControllerSpec.groovy:57)
+</pre>
+</span>
+</div>
+<div class="test">
+<a name="Test the index action returns the correct response"></a>
+<h3 class="failures">Test the index action returns the correct response</h3>
+<span class="code">
+<pre>java.lang.NullPointerException: Cannot invoke method getProjects() on null object
+	at scheduler.api.ProjectController.$tt__index(ProjectController.groovy:15)
+	at scheduler.api.ProjectController.index_closure1(ProjectController.groovy)
+	at groovy.lang.Closure.call(Closure.java:414)
+	at groovy.lang.Closure.call(Closure.java:430)
+	at grails.transaction.GrailsTransactionTemplate$2.doInTransaction(GrailsTransactionTemplate.groovy:96)
+	at org.springframework.transaction.support.TransactionTemplate.execute(TransactionTemplate.java:133)
+	at grails.transaction.GrailsTransactionTemplate.execute(GrailsTransactionTemplate.groovy:93)
+	at scheduler.api.ProjectControllerSpec.Test the index action returns the correct response(ProjectControllerSpec.groovy:22)
+</pre>
+</span>
+</div>
+<div class="test">
+<a name="Test the save action correctly persists an instance"></a>
+<h3 class="failures">Test the save action correctly persists an instance</h3>
+<span class="code">
+<pre>groovy.lang.MissingMethodException: No signature of method: scheduler.api.ProjectController.save() is applicable for argument types: (scheduler.api.Project) values: [scheduler.api.Project : (unsaved)]
+Possible solutions: wait(), any(), wait(long), each(groovy.lang.Closure), isCase(java.lang.Object), sleep(long)
+	at scheduler.api.ProjectControllerSpec.Test the save action correctly persists an instance(ProjectControllerSpec.groovy:36)
+</pre>
+</span>
+</div>
+<div class="test">
+<a name="Test the update action performs an update on a valid domain instance"></a>
+<h3 class="failures">Test the update action performs an update on a valid domain instance</h3>
+<span class="code">
+<pre>groovy.lang.MissingMethodException: No signature of method: scheduler.api.ProjectController.update() is applicable for argument types: (null) values: [null]
+Possible solutions: isCase(java.lang.Object), putAt(java.lang.String, java.lang.Object), split(groovy.lang.Closure), use([Ljava.lang.Object;)
+	at scheduler.api.ProjectControllerSpec.Test the update action performs an update on a valid domain instance(ProjectControllerSpec.groovy:78)
+</pre>
+</span>
+</div>
+</div>
+<div id="tab1" class="tab">
+<h2>Tests</h2>
+<table>
+<thead>
+<tr>
+<th>Test</th>
+<th>Duration</th>
+<th>Result</th>
+</tr>
+</thead>
+<tr>
+<td class="failures">Test that the delete action deletes an instance if it exists</td>
+<td>0.005s</td>
+<td class="failures">failed</td>
+</tr>
+<tr>
+<td class="failures">Test that the show action returns the correct model</td>
+<td>0.006s</td>
+<td class="failures">failed</td>
+</tr>
+<tr>
+<td class="failures">Test the index action returns the correct response</td>
+<td>0.233s</td>
+<td class="failures">failed</td>
+</tr>
+<tr>
+<td class="failures">Test the save action correctly persists an instance</td>
+<td>0.011s</td>
+<td class="failures">failed</td>
+</tr>
+<tr>
+<td class="failures">Test the update action performs an update on a valid domain instance</td>
+<td>0.005s</td>
+<td class="failures">failed</td>
+</tr>
+</table>
+</div>
+<div id="tab2" class="tab">
+<h2>Standard output</h2>
+<span class="code">
+<pre>INFO org.springframework.web.context.support.GenericWebApplicationContext - Refreshing org.springframework.web.context.support.GenericWebApplicationContext@4b1738c9: startup date [Wed Nov 30 18:45:18 CST 2016]; root of context hierarchy
+INFO grails.plugins.DefaultGrailsPluginManager - Attempting to load [0] user defined plugins
+INFO grails.plugins.DefaultGrailsPluginManager - Grails plug-in [eventBus] with version [3.2.1] loaded successfully
+INFO grails.plugins.DefaultGrailsPluginManager - Grails plug-in [core] with version [3.2.1] loaded successfully
+INFO org.springframework.beans.factory.support.DefaultListableBeanFactory - Overriding bean definition for bean 'grailsApplicationPostProcessor' with a different definition: replacing [Root bean: class [grails.test.runtime.GrailsApplicationTestPlugin$TestRuntimeGrailsApplicationPostProcessor]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null] with [Generic bean: class [org.grails.spring.beans.GrailsApplicationAwareBeanPostProcessor]; scope=singleton; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null]
+WARN org.grails.datastore.mapping.core.DatastoreUtils - Cannot unbind session, there's no SessionHolder registered
+INFO org.springframework.beans.factory.support.DefaultListableBeanFactory - Overriding bean definition for bean 'scheduler.api.ProjectValidator' with a different definition: replacing [Generic bean: class [grails.test.mixin.domain.MockCascadingDomainClassValidator]; scope=singleton; abstract=false; lazyInit=true; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null] with [Generic bean: class [grails.test.mixin.domain.MockCascadingDomainClassValidator]; scope=singleton; abstract=false; lazyInit=true; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null]
+WARN org.grails.datastore.mapping.core.DatastoreUtils - Cannot unbind session, there's no SessionHolder registered
+INFO org.springframework.beans.factory.support.DefaultListableBeanFactory - Overriding bean definition for bean 'scheduler.api.ProjectValidator' with a different definition: replacing [Generic bean: class [grails.test.mixin.domain.MockCascadingDomainClassValidator]; scope=singleton; abstract=false; lazyInit=true; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null] with [Generic bean: class [grails.test.mixin.domain.MockCascadingDomainClassValidator]; scope=singleton; abstract=false; lazyInit=true; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null]
+WARN org.grails.datastore.mapping.core.DatastoreUtils - Cannot unbind session, there's no SessionHolder registered
+INFO org.springframework.beans.factory.support.DefaultListableBeanFactory - Overriding bean definition for bean 'scheduler.api.ProjectValidator' with a different definition: replacing [Generic bean: class [grails.test.mixin.domain.MockCascadingDomainClassValidator]; scope=singleton; abstract=false; lazyInit=true; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null] with [Generic bean: class [grails.test.mixin.domain.MockCascadingDomainClassValidator]; scope=singleton; abstract=false; lazyInit=true; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null]
+WARN org.grails.datastore.mapping.core.DatastoreUtils - Cannot unbind session, there's no SessionHolder registered
+INFO org.springframework.beans.factory.support.DefaultListableBeanFactory - Overriding bean definition for bean 'scheduler.api.ProjectValidator' with a different definition: replacing [Generic bean: class [grails.test.mixin.domain.MockCascadingDomainClassValidator]; scope=singleton; abstract=false; lazyInit=true; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null] with [Generic bean: class [grails.test.mixin.domain.MockCascadingDomainClassValidator]; scope=singleton; abstract=false; lazyInit=true; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null]
+WARN org.grails.datastore.mapping.core.DatastoreUtils - Cannot unbind session, there's no SessionHolder registered
+INFO org.springframework.web.context.support.GenericWebApplicationContext - Closing org.springframework.web.context.support.GenericWebApplicationContext@4b1738c9: startup date [Wed Nov 30 18:45:18 CST 2016]; root of context hierarchy
+</pre>
+</span>
+</div>
+</div>
+<div id="footer">
+<p>
+<div>
+<label class="hidden" id="label-for-line-wrapping-toggle" for="line-wrapping-toggle">Wrap lines
+<input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
+</label>
+</div>Generated by 
+<a href="http://www.gradle.org">Gradle 3.2-20160923000018+0000</a> at Nov 30, 2016 6:45:20 PM</p>
+</div>
+</div>
+</body>
+</html>

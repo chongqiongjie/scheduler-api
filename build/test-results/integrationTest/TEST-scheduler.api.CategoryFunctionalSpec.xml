@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="scheduler.api.CategoryFunctionalSpec" tests="5" skipped="0" failures="5" errors="0" timestamp="2016-10-24T07:23:48" hostname="client" time="6.346">
+  <properties/>
+  <testcase name="Test the index action" classname="scheduler.api.CategoryFunctionalSpec" time="6.292">
+    <failure message="Condition not satisfied:&#10;&#10;false&#10;&#10;TODO: provide the path to your resource. Example: &quot;http://localhost:36985/books&quot;&#10;" type="org.spockframework.runtime.ConditionNotSatisfiedError">Condition not satisfied:
+
+false
+
+TODO: provide the path to your resource. Example: &quot;http://localhost:36985/books&quot;
+
+	at scheduler.api.CategoryFunctionalSpec.getResourcePath(CategoryFunctionalSpec.groovy:20)
+	at scheduler.api.CategoryFunctionalSpec.$tt__$spock_feature_1_0(CategoryFunctionalSpec.groovy:33)
+	at scheduler.api.CategoryFunctionalSpec.Test the index action_closure3(CategoryFunctionalSpec.groovy)
+	at groovy.lang.Closure.call(Closure.java:414)
+	at groovy.lang.Closure.call(Closure.java:430)
+	at grails.transaction.GrailsTransactionTemplate$1.doInTransaction(GrailsTransactionTemplate.groovy:70)
+	at org.springframework.transaction.support.TransactionTemplate.execute(TransactionTemplate.java:133)
+	at grails.transaction.GrailsTransactionTemplate.executeAndRollback(GrailsTransactionTemplate.groovy:67)
+	at scheduler.api.CategoryFunctionalSpec.Test the index action(CategoryFunctionalSpec.groovy)
+</failure>
+  </testcase>
+  <testcase name="Test the save action correctly persists an instance" classname="scheduler.api.CategoryFunctionalSpec" time="0.016">
+    <failure message="Condition not satisfied:&#10;&#10;false&#10;&#10;TODO: provide the path to your resource. Example: &quot;http://localhost:36985/books&quot;&#10;" type="org.spockframework.runtime.ConditionNotSatisfiedError">Condition not satisfied:
+
+false
+
+TODO: provide the path to your resource. Example: &quot;http://localhost:36985/books&quot;
+
+	at scheduler.api.CategoryFunctionalSpec.getResourcePath(CategoryFunctionalSpec.groovy:20)
+	at scheduler.api.CategoryFunctionalSpec.$tt__$spock_feature_1_1(CategoryFunctionalSpec.groovy:42)
+	at scheduler.api.CategoryFunctionalSpec.Test the save action correctly persists an instance_closure4(CategoryFunctionalSpec.groovy)
+	at groovy.lang.Closure.call(Closure.java:414)
+	at groovy.lang.Closure.call(Closure.java:430)
+	at grails.transaction.GrailsTransactionTemplate$1.doInTransaction(GrailsTransactionTemplate.groovy:70)
+	at org.springframework.transaction.support.TransactionTemplate.execute(TransactionTemplate.java:133)
+	at grails.transaction.GrailsTransactionTemplate.executeAndRollback(GrailsTransactionTemplate.groovy:67)
+	at scheduler.api.CategoryFunctionalSpec.Test the save action correctly persists an instance(CategoryFunctionalSpec.groovy)
+</failure>
+  </testcase>
+  <testcase name="Test the update action correctly updates an instance" classname="scheduler.api.CategoryFunctionalSpec" time="0.014">
+    <failure message="Condition not satisfied:&#10;&#10;false&#10;&#10;TODO: provide the path to your resource. Example: &quot;http://localhost:36985/books&quot;&#10;" type="org.spockframework.runtime.ConditionNotSatisfiedError">Condition not satisfied:
+
+false
+
+TODO: provide the path to your resource. Example: &quot;http://localhost:36985/books&quot;
+
+	at scheduler.api.CategoryFunctionalSpec.getResourcePath(CategoryFunctionalSpec.groovy:20)
+	at scheduler.api.CategoryFunctionalSpec.$tt__$spock_feature_1_2(CategoryFunctionalSpec.groovy:68)
+	at scheduler.api.CategoryFunctionalSpec.Test the update action correctly updates an instance_closure5(CategoryFunctionalSpec.groovy)
+	at groovy.lang.Closure.call(Closure.java:414)
+	at groovy.lang.Closure.call(Closure.java:430)
+	at grails.transaction.GrailsTransactionTemplate$1.doInTransaction(GrailsTransactionTemplate.groovy:70)
+	at org.springframework.transaction.support.TransactionTemplate.execute(TransactionTemplate.java:133)
+	at grails.transaction.GrailsTransactionTemplate.executeAndRollback(GrailsTransactionTemplate.groovy:67)
+	at scheduler.api.CategoryFunctionalSpec.Test the update action correctly updates an instance(CategoryFunctionalSpec.groovy)
+</failure>
+  </testcase>
+  <testcase name="Test the show action correctly renders an instance" classname="scheduler.api.CategoryFunctionalSpec" time="0.013">
+    <failure message="Condition not satisfied:&#10;&#10;false&#10;&#10;TODO: provide the path to your resource. Example: &quot;http://localhost:36985/books&quot;&#10;" type="org.spockframework.runtime.ConditionNotSatisfiedError">Condition not satisfied:
+
+false
+
+TODO: provide the path to your resource. Example: &quot;http://localhost:36985/books&quot;
+
+	at scheduler.api.CategoryFunctionalSpec.getResourcePath(CategoryFunctionalSpec.groovy:20)
+	at scheduler.api.CategoryFunctionalSpec.$tt__$spock_feature_1_3(CategoryFunctionalSpec.groovy:98)
+	at scheduler.api.CategoryFunctionalSpec.Test the show action correctly renders an instance_closure6(CategoryFunctionalSpec.groovy)
+	at groovy.lang.Closure.call(Closure.java:414)
+	at groovy.lang.Closure.call(Closure.java:430)
+	at grails.transaction.GrailsTransactionTemplate$1.doInTransaction(GrailsTransactionTemplate.groovy:70)
+	at org.springframework.transaction.support.TransactionTemplate.execute(TransactionTemplate.java:133)
+	at grails.transaction.GrailsTransactionTemplate.executeAndRollback(GrailsTransactionTemplate.groovy:67)
+	at scheduler.api.CategoryFunctionalSpec.Test the show action correctly renders an instance(CategoryFunctionalSpec.groovy)
+</failure>
+  </testcase>
+  <testcase name="Test the delete action correctly deletes an instance" classname="scheduler.api.CategoryFunctionalSpec" time="0.011">
+    <failure message="Condition not satisfied:&#10;&#10;false&#10;&#10;TODO: provide the path to your resource. Example: &quot;http://localhost:36985/books&quot;&#10;" type="org.spockframework.runtime.ConditionNotSatisfiedError">Condition not satisfied:
+
+false
+
+TODO: provide the path to your resource. Example: &quot;http://localhost:36985/books&quot;
+
+	at scheduler.api.CategoryFunctionalSpec.getResourcePath(CategoryFunctionalSpec.groovy:20)
+	at scheduler.api.CategoryFunctionalSpec.$tt__$spock_feature_1_4(CategoryFunctionalSpec.groovy:117)
+	at scheduler.api.CategoryFunctionalSpec.Test the delete action correctly deletes an instance_closure7(CategoryFunctionalSpec.groovy)
+	at groovy.lang.Closure.call(Closure.java:414)
+	at groovy.lang.Closure.call(Closure.java:430)
+	at grails.transaction.GrailsTransactionTemplate$1.doInTransaction(GrailsTransactionTemplate.groovy:70)
+	at org.springframework.transaction.support.TransactionTemplate.execute(TransactionTemplate.java:133)
+	at grails.transaction.GrailsTransactionTemplate.executeAndRollback(GrailsTransactionTemplate.groovy:67)
+	at scheduler.api.CategoryFunctionalSpec.Test the delete action correctly deletes an instance(CategoryFunctionalSpec.groovy)
+</failure>
+  </testcase>
+  <system-out><![CDATA[Grails application running at http://localhost:36985 in environment: test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
